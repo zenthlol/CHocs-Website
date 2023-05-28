@@ -1,0 +1,390 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Oldenburg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+/* NAVIGATION BAR */
+#navbar{
+    width: 100%;
+    background: rgb(0,0,0);
+    background: #2d181c;
+    padding: 28px 80px;
+    position: relative;
+}
+
+a {
+    color: white;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left{
+    color: white;
+    font-size: 30px;
+    font-family: 'Oldenburg';
+}
+
+.nav-right{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 96px;
+    font-family: 'Oldenburg';
+}
+
+.nav-menu{
+    text-decoration: none;
+}
+
+.nav-menu > *:not(:first-child){
+    margin-left: 48px;
+}
+
+.nav-contact a,
+.getintouch-contact a{
+    padding: 6px 24px;
+    border-radius: 40px;
+    background-color: grey;
+}
+
+.nav-menu a {
+    font-size: 22px;
+    margin-top: 50px;
+    transition: color 0.4s ease;
+}
+
+.nav-menu a:hover {
+    color: #bc8f8f;
+}
+
+#TheHeader{
+    background: url(/Asset/home_bg_lapisan.png);
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5E6D1;
+}
+
+#TheHeader2{
+    background: url(/Asset/home_bg_lapisan.png);
+    height:11vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding-left: 150px;
+    background-color: #F5E6D1;
+}
+
+.our-products{
+    
+    font-family: 'Oldenburg';
+    font-size: 64px;
+    color: #2D181C;
+    border-bottom: 5px solid #2D181C;
+
+}
+
+.search-box-2{
+    align-items: left;
+    border-radius: 8px;
+    padding: 3px;
+    border: 3px solid #2D181C;
+    background-color: white;
+    width: 800px;
+    height: 50px;
+}
+
+.search-btn-2{
+    color: #F5E6D1;
+    float: right;
+    width: 50px;
+    height: 35px;
+    border-radius: 10px;
+    background: #2D181C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-txt-2{
+    border: none;
+    background: none;
+    outline: none;
+    padding-top: 10px;
+    padding-left: 5px;
+    /* padding: 0; */
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    
+    
+}
+
+/* The card */
+#TheCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 80px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    background-color: #F5E6D1;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+
+
+.card-cardholder{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 450px;
+    height: 600px;
+    background: #2D181C;
+    border-radius: 10px;
+    margin-bottom: 80px;
+
+    border: 10px solid #2D181C;
+}
+
+.p1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #F5E6D1;
+    padding-left: 20px;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+}
+
+.p2{
+    font-size: 13px;
+    text-align: center;
+    font-weight: lighter;
+    color: #F5E6D1;
+    padding: 10px;
+    
+}
+
+/* .card a{
+    color: #f05454;
+    text-decoration: none;
+    font-size: 15px; 
+    padding: 0px 10px 0px 10px;
+    margin-left: 20px;
+    
+    
+    background-color: #E5E5E5;
+    border-radius: 7px;
+} */
+
+
+
+
+
+
+
+/* .wrap{
+    width:1000px;
+    margin:auto;
+    margin-top: 100px;
+}
+
+.card{
+    transition: 0.4s;
+    width: 300px;
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    float: left;
+    margin: 10px;
+} */
+
+
+/* .browse-event{
+    margin-top: 30px;
+    font-size: 18px;
+    
+} */
+
+/* .browse-event>a{
+    color: #dddddd;
+    text-decoration: none;
+    padding: 12px 24px 12px 24px; 
+    border: 2px solid #f05454;
+    background-color: #f05454;
+    border-radius: 7px;
+} */
+
+
+
+.home>a{
+    
+    font-size: 25px;
+}
+
+.event-gallery>a{
+    font-size: 23px;
+    margin-left: 37px;
+    font-weight: bolder;
+}
+
+.navul-mid{
+    margin-right: 30%;
+}
+
+
+/* .btn a{
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px 25px 8px 25px; 
+    border: 2px solid #f05454;
+    background-color: #f05454;
+    border-radius: 7px;
+}
+
+.btn a{
+    color: #f05454;
+    text-decoration: none;
+    font-size: 15px; 
+    padding: 8px 25px 8px 25px; 
+    border: 2px solid #f05454;
+    background-color: #222831;
+    border-radius: 7px;
+} */
+
+.card button {
+    font-size: 18px;
+    padding: 10px 34px;
+    background: #F5E6D1;
+    border: 2px solid #000;
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+    margin-top: 10px;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+}
+
+.card button:hover {
+    color: #bc8f8f;
+}
+
+/* footer */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color: #2D181C;
+    padding: 70px 0;
+}
+
+.footer-collom {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-collom h4 {
+    font-size: 36px;
+    font-family: 'Comic Neue';
+    color: #F5E6D1;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position: relative;
+    padding-left: 80px;
+}
+
+.footer-collom ul li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.footer-collom ul li a {
+    font-size: 24px;
+    font-family: 'Comic Neue';
+    color: #FFFFFF;
+    font-weight: 500;
+    text-decoration: none;
+    color: #F5E6D1;
+    display: block;
+    transition: all 0.3s ease;
+    padding-left: 80px;
+}
+
+.footer-collom ul li a:hover {
+    color: #F9EFE1;
+    padding-left: 8px;
+}
+
+.footer-collom .social-links {
+    padding-left: 80px;  
+}
+
+.footer-collom .social-links a {
+    font-size: 90px;
+    width: 40px;
+    margin: 0 30px 10px 0;
+    text-align: center;
+    color: #F5E6D1;
+    font-weight: bold;
+}
+
+.footer-collom .social-links a:hover {
+    color: rosybrown;
+    font-weight: bold;
+}
+
+.footer-bottom {
+    text-align: center;
+    width: 90vw;
+    padding-left: 200px;
+}
+
+.footer-bottom p {
+    font-size: 36px;
+    font-family: 'Comic Neue';
+    margin-top: 100px;
+    word-spacing: 2px;
+    color: #F5E6D1;
+}

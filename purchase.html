@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase</title>
+    <link rel="stylesheet" href="Purchase.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                CHocs
+            </div>
+            <div class="nav-right">
+                <div class="nav-menu">
+                    <a href="home.html">Home</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="product.html">Products</a>
+                    <a href="purchase.html">Purchase</a>
+                    <a href="location.html">Location</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Form -->
+    <section id="OrderForm">
+        <div class="contact-container">
+            <div class="contact-heading">
+                <h1 class="order-form">Order Form</h1>
+            </div>
+            <div class="contact-form">
+                <form onsubmit="validateForm(event)" id="Form" action="">
+                    <div class="form-bg">
+                        <div class="contact-fill">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" name="name" placeholder="Name">
+                        </div>
+                        <div class="contact-fill">
+                            <label for="phone-number">Phone Number</label>
+                            <input id="phone-number" type="text" name="phone-number" placeholder="Phone Number (Starting with '08')">
+                        </div>
+                        <div class="contact-fill">
+                            <label for="quantity">Quantity</label>
+                            <input id="quantity" type="number" name="quantity" placeholder="Quantity">
+                        </div>
+                        <div class="contact-fill">
+                            <label for="product-choice">Product Choice</label>
+                            <select class="contact-fill" name="product-choice" id="product-choice">
+                                <option>Choose Product</option>
+                                <option>Belgian Dark Chocolate</option>
+                                <option>Amul Dark Chocolate</option>
+                                <option>Divine Dark Chocolate</option>  
+                                <option>Friis Holm O'Payo Milk Chocolate</option>                           
+                                <option>Krak-Sierra Nevada, Colombia 55% Dark Milk</option>
+                                <option>Lindt Classic Recipe Smooth Milk Chocolate</option>
+                                <option>Belgian White Chocolate</option>
+                                <option>Hamiltons White Chocolate</option>
+                                <option>Lindt Classic Recipe White Chocolate Bar</option>
+                            </select>
+                        </div>
+                        <div class="contact-fill">
+                            <label for="address">Address</label>
+                            <textarea name="address" id="address" cols="30" rows="2" placeholder="Delivery Address (5 - 100 char.)"></textarea>
+                        </div>
+                        <button class="submitBtn" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-collom">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="purchase.html">Purchase</a></li>
+                        <li><a href="location.html">Location</a></li>
+                    </ul>
+                </div>
+                <div class="footer-collom">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="location.html">+628-1234-567 @Jakarta</a></li>
+                        <li><a href="location.html">+628-3232-234 @Bandung</a></li>
+                        <li><a href="location.html">+628-5412-453 @Sanur</a></li>
+                    </ul>
+                </div>
+                <div class="footer-collom">
+                    <h4>Our Social Media</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy;2022 COPYRIGHT CHocs</p>
+            </div>
+        </div>
+    </footer>
+    <script src="form.js"></script>
+</body>
+</html>
